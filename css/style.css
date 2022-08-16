@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    /* border: 1px solid black; */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    font-family: Poppins;
+}
+
+.container{
+    position: absolute;
+    margin: 50px;
+}
+
+.header-section,
+.nav-area,
+.hero-section,
+.btn-area,
+.slides,
+.action-area,
+.feature,
+.product-description,
+.product-img,
+.atc {
+    display: flex;
+    flex-direction: row;
+}
+
+.container,
+.product-name,
+.product-features,
+.details-area,
+.image-area {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-section{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo{
+    height: 40px;
+}
+
+.nav-area{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+    margin: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.action-icon{
+    height: 25px;
+    margin: 0px 6px;
+}
+
+
+
+
+.hero-section{
+    height: 100%;
+}
+
+
+.details-area{
+    width: 50% ;
+    justify-content: space-between;
+}
+
+
+
+
+.image-area{
+    width: 50%;
+    /* height: 100%; */
+    /* justify-content: space-between; */
+    align-items: stretch;
+    justify-content: flex-end;
+    position: relative;
+    height: 500px;
+}
+
+
+
+
+
+.product-img{
+    justify-content: center;
+    margin: 50px;
+    /* position: relative; */
+    
+}
+
+
+/* .border{
+    border: 1px solid black;
+} */
+
+
+.product-name{
+    margin-top: 50px ;
+    align-items: ce;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.heading:after{
+    content: "";
+    background-image:url(../assets/circles.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    
+    height: 30px;
+    width: 40px;
+
+    margin-left: 5px;
+
+
+}
+
+.product1-name{
+    font-family: "fredoka one";
+    font-size: 60px;
+    font-weight: 400;
+    d
+}
+
+.feature::before{
+    content: "" ;
+    background-image: url(../assets/plus.png) ;
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    background-color: #FE5E35;
+    
+    border-radius: 20px;
+
+
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    margin-right: 15px
+}
+
+.feature{
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 75px;
+
+}
+
+.product-description{
+    justify-content: flex-start;
+}
+
+.description{
+    font-size: 15px;
+}
+
+.btn-area{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn{
+    margin: 15px;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: white;
+    background-color: #FE5E35;
+    border: none;
+    border-radius: 25px;
+    font-family: Poppins ;
+}
+
+
+.slide-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.slide-1{
+    background-color: #FBD104;
+}
+
+.slide-2{
+    background-color: #FE5E35;
+}
+
+.slide-3{
+    background-color: black;
+}
+
+
+.p-img{
+    height: 375px;
+    position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+    z-index: -1;
+    top: 0px;
+    left: 125px;
+}
+
+
+.discount-img{
+    height: 110px;
+    left: 80px;
+    top: 225px;
+    filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.5));
+    height: 110px;
+    z-index: -1;
+    
+}
+
+.discount-area{
+    position: absolute;
+    height: 110px;
+    left: 80px;
+    top: 225px;
+}
+
+.discount-text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 12.5px;
+}
+
+.discount-percentage{
+    position: absolute;
+    font-family: "Fredoka One";
+    top: 50px;
+    left: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.slides,
+.atc{
+    /* position: ce; */
+    justify-content: center;
+    align-items: center;
+}
