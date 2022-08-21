@@ -74,4 +74,8 @@
     .container-image{
         width: 100%;
     }
+
+    .image-area{
+        width: 375px;
+    }
 }
