@@ -1,0 +1,77 @@
+
+
+
+/* BreakPoint 01 */
+
+@media screen and (max-width:1024px) {
+    .nav-area{
+        display: none;
+    }
+    
+    .hero-section{
+        flex-direction: column;
+    }
+
+    .details-area{
+        width: 100% ;
+        align-items: center;
+    }
+
+    .image-area{
+        width: 100% ;
+    }
+
+    .product-name{
+        
+        align-items: center;
+    }
+
+    .heading{
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .product1-name{
+        font-family: "fredoka one";
+        font-size: 45px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .feature{
+        font-size: 16px;
+    }
+
+    .feature::before{
+
+        height: 20px;
+        width: 20px;
+
+    }
+
+    .product-description{
+        justify-content: center;
+        padding: 10px 15px;
+    }
+    
+    .description{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .btn-area{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .btn{
+        margin: 12px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .container-image{
+        width: 100%;
+    }
+}
