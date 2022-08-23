@@ -3,7 +3,8 @@
 
 </br> -->
 
-# Project 07 : Wireless Headphone Website [![Template Project](https://img.shields.io/badge/Template-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Multi%20Device%20-Responsive-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) 
+# Project 07 : Wireless Headphone Website 
+[![Template Project](https://img.shields.io/badge/Template-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Multi%20Device%20-Responsive-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) 
 
 </br>
 
